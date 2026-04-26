@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <tital>whatsap booking</tital>
+    <style>
+    body{
+      font-falmily:Arial;
+      background:#f2f2f2;
+      pending:30px;
+      text-align:center;
+    }
+    .box{
+      background:white;
+    pending:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gry;
+    }
+    input{
+      width:90%;
+      padding:10px;
+      margin:10px;
+      font-size: 16px;
+    }
+    button{
+      background:green;
+      color:white;
+      pending:12px 20px;
+      border:none;
+      border-border-radius:8px;
+      font-size:18px;
+    }
+    </style>
+    </head>
+    <body>
+      <div class="box">
+        <ht>☆ Electrician whatsapp booking</ht1>
+        <input type="text" id= "name"
+        paleceholdar="own name">
+        <input type="number" id="mobile"
+        paleceholdar="mobile number"
+        <button onclick="sendwhatsapp()">book onwhatsapp</button>
+          </div>
+          
+          <script>
+            function sendwhatsapp(){
+              lt name=
+              document.getElementById("name").valu;
+              let mobile= "919935997020";
+              let massage="hi my name + name +  " is. my mobile number" + mobile + " is.mujhe Electriciansarvice chahiye.";
+              let url =https://wa.me"/" + "?
+              texe=" + encodeURIComponent(massage);
+              window.open(url,_blank");
+            }
+          </script>
+          </body>
+          </html>

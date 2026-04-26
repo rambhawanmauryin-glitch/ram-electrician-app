@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <tital>Professional Electrician app</tital>
+    <style>
+    body{
+      font-falmily:Arial;
+      background:linear-gradint(to
+      right, #00c6ff , #0072ff);
+      pending:20px;
+      pending:30px;
+      text-align:center;
+    }
+    .box{background:white;
+    pending:20px;
+    border-radius:15px;
+    box-shadow:0 0 15px gry;
+    max-wdth:400px;
+    margin:auto;
+    }
+    input,select{
+      width:90%;
+      padding:12px;
+      margin:8px;
+      font-size: 16px;
+      border:1px solid gry;
+      border-radius:8px;
+    }
+    button{
+      background:green;
+      color:white;
+      pending:12px 20px;
+      border:none;
+      border-radius:8px;
+      font-size:18px;
+      margin-top:10px;
+      width:95%;
+    }
+    h1{
+    colar:#0072ff;
+    }
+    
+    </style>
+    </head>
+    <body>
+      <div class="box">
+        <ht>☆ Electrician sarvice</ht1>
+        <input type="text" id= "name"
+        paleceholdar="आपका नाम">
+        <input type="number" id="mobile"
+        paleceholdar="मोबाइल नम्बर"
+        <input type="text" id="address"
+        paleceholdar="पूरा पता">
+        <select id="sarvice">
+        <option>fan Repair</option>
+        <option> house wiring</option>
+        <option>light Repair</option>
+        <option>switch bord Repair</option>
+        </select>
+        
+        <button onclick="sendbooking()">/book now</button>
+        
+        </div>
+        <script>
+        fanction sedbooking(){
+        let
+        name=document.getElementById("name").valu;
+        mobile=document.getElementById("mobile").valu;
+        address=document.getElementById("address").valu;
+        sarvice=document.getElementById("sarvice").valu;
+        let number="9935997020"
+        let massage=
+        "☆नई booking%0A"+
+        "नाम:"+name+%0A"+
+        "पता:"+address+%0A"+
+        "मोबाइल:"+mobile+%0A"+
+        "Sarvice:"+sarvice;
+        let
+        url="https://wa.me/"+number+?text="+massage;
+        widow(url,"_blank");
+            }
+          </script>
+          </body>
+          </html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <tital>Electrician booking</tital>
+    <style>
+    body{
+      font-falmily:Arial;
+      background:#f2f2f2;
+      pending:30px;
+      text-align:center;
+    }
+    .box{background:white;
+    pending:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gry;
+    }
+    input{
+      width:90%;
+      padding:10px;
+      margin:10px;
+      font-size: 16px;
+    }
+    button{
+      background:green;
+      color:white;
+      pending:12px 20px;
+      border:none;
+      border-border-radius:8px;
+      font-size:18px;
+    }
+    </style>
+    </head>
+    <body>
+      <div class="box">
+        <ht>☆ Electrician booking</ht1>
+        <input type="text" id= "name"
+        paleceholdar="your name click">
+        <input type="number" id="mobile"
+        paleceholdar="mobile number dale"
+        <button onclick="book()">book now</button>
+          </div>
+          
+          <script>
+            function book(){
+              lt name=
+              document.getElementById("name").valu;
+              let mobile=
+              document.getElementById("mobile").valu;
+              aert("Thank you"+ name + "\n your booking complateDone\nmobile: " + mobile);
+            }
+          </script>
+          </body>
+          </html>
